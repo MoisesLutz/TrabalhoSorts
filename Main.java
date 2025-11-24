@@ -3,7 +3,7 @@ import utils.IO;
 public class Main {
     public static void main(String[] args) {
 
-        System.out.println("Digite 1 para algoritmos zero a dez mil e 2 algoritmos de zero a max int:");
+      System.out.println("Digite 1 para algoritmos zero a dez mil e 2 algoritmos de zero a max int:");
         int opcao = IO.lerValorInteiro();
         if (opcao == 1) {
             System.out.println("Digite um valor de 1 a 7");
@@ -95,5 +95,5 @@ public class Main {
             System.out.println("Digite um valor valido");
         }
 
-    }
+    } 
 }
