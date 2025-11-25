@@ -1,8 +1,9 @@
-package Algoritmos.Zero_A_DezMil;
+package Zero_A_DezMil;
 
 import utils.IO;
+import utils.Sorts;
 
-public class BubbleSort {
+public class MergeSort {
 
    public static void algoritmos(){
     cem();
@@ -18,7 +19,7 @@ public class BubbleSort {
     public static void cem() {
         int[] vetor = IO.gerarValoresAleatorios(100, 0, 10000);
         long tempo_inicio = IO.medirTempoIniciar();
-        IO.bubbleSort(vetor);
+        Sorts.mergeSort(vetor);
         double tempoTotal = IO.medirTempoFinalizarSegundos(tempo_inicio);
         IO.imprimirTempo(100, tempoTotal);
     }
@@ -26,7 +27,7 @@ public class BubbleSort {
        public static void mil() {
         int[] vetor = IO.gerarValoresAleatorios(1000, 0, 10000);
         long tempo_inicio = IO.medirTempoIniciar();
-        IO.bubbleSort(vetor);
+        Sorts.mergeSort(vetor);
         double tempoTotal = IO.medirTempoFinalizarSegundos(tempo_inicio);
         IO.imprimirTempo(1000, tempoTotal);
     }
@@ -34,7 +35,7 @@ public class BubbleSort {
        public static void dezMil() {
         int[] vetor = IO.gerarValoresAleatorios(10000, 0, 10000);
         long tempo_inicio = IO.medirTempoIniciar();
-        IO.bubbleSort(vetor);
+        Sorts.mergeSort(vetor);
         double tempoTotal = IO.medirTempoFinalizarSegundos(tempo_inicio);
         IO.imprimirTempo(10000, tempoTotal);
     }
@@ -42,7 +43,7 @@ public class BubbleSort {
        public static void cemMil() {
         int[] vetor = IO.gerarValoresAleatorios(100000, 0, 10000);
         long tempo_inicio = IO.medirTempoIniciar();
-        IO.bubbleSort(vetor);
+        Sorts.mergeSort(vetor);
         double tempoTotal = IO.medirTempoFinalizarSegundos(tempo_inicio);
         IO.imprimirTempo(100000, tempoTotal);
     }
@@ -50,7 +51,7 @@ public class BubbleSort {
        public static void umMilhao() {
         int[] vetor = IO.gerarValoresAleatorios(1000000, 0, 10000);
         long tempo_inicio = IO.medirTempoIniciar();
-        IO.bubbleSort(vetor);
+        Sorts.mergeSort(vetor);
         double tempoTotal = IO.medirTempoFinalizarSegundos(tempo_inicio);
         IO.imprimirTempo(1000000, tempoTotal);
     }
@@ -58,7 +59,7 @@ public class BubbleSort {
        public static void dezMilhoes() {
         int[] vetor = IO.gerarValoresAleatorios(10000000, 0, 10000);
         long tempo_inicio = IO.medirTempoIniciar();
-        IO.bubbleSort(vetor);
+        Sorts.mergeSort(vetor);
         double tempoTotal = IO.medirTempoFinalizarSegundos(tempo_inicio);
         IO.imprimirTempo(10000000, tempoTotal);
     }
