@@ -11,63 +11,55 @@ public class Main {
             switch (qualSort) {
                 case 1:
                     System.out.println("Rodando BubbleSort");
-                    Zero_A_DezMil.BubbleSort.algoritmos();
-                    System.out.println("Rodando BubbleSort");
-                    Zero_A_DezMil.BubbleSort.algoritmos();
-                    System.out.println("Rodando BubbleSort");
-                    Zero_A_DezMil.BubbleSort.algoritmos();
+                    Zero_A_DezMil.BubbleSort.quantidades();
 
                     break;
                 case 2:
                     System.out.println("Rodando CountingSort");
-                    Zero_A_DezMil.CountingSort.algoritmos();
+                    Zero_A_DezMil.CountingSort.quantidades();
                     System.out.println("Rodando CountingSort");
-                    Zero_A_DezMil.CountingSort.algoritmos();
+                    Zero_A_DezMil.CountingSort.quantidades();
                     System.out.println("Rodando CountingSort");
-                    Zero_A_DezMil.CountingSort.algoritmos();
+                    Zero_A_DezMil.CountingSort.quantidades();
 
                     break;
                 case 3:
                     System.out.println("Rodando Insertionsort");
-                    Zero_A_DezMil.InsertionSort.algoritmos();
-                    System.out.println("Rodando Insertionsort");
-                    Zero_A_DezMil.InsertionSort.algoritmos();
-                    System.out.println("Rodando Insertionsort");
-                    Zero_A_DezMil.InsertionSort.algoritmos();
+                    Zero_A_DezMil.InsertionSort.quantidades();
 
                     break;
                 case 4:
                     System.out.println("Rodando MergeSort");
-                    Zero_A_DezMil.MergeSort.algoritmos();
+                    Zero_A_DezMil.MergeSort.quantidades();
                     System.out.println("Rodando MergeSort");
-                    Zero_A_DezMil.MergeSort.algoritmos();
+                    Zero_A_DezMil.MergeSort.quantidades();
                     System.out.println("Rodando MergeSort");
-                    Zero_A_DezMil.MergeSort.algoritmos();
+                    Zero_A_DezMil.MergeSort.quantidades();
 
                     break;
                 case 5:
                     System.out.println("Rodando QuickSort");
-                    Zero_A_DezMil.QuickSort.algoritmos();
+                    Zero_A_DezMil.QuickSort.quantidades();
                     System.out.println("Rodando QuickSort");
-                    Zero_A_DezMil.QuickSort.algoritmos();
+                    Zero_A_DezMil.QuickSort.quantidades();
                     System.out.println("Rodando QuickSort");
-                    Zero_A_DezMil.QuickSort.algoritmos();
+                    Zero_A_DezMil.QuickSort.quantidades();
 
                     break;
                 case 6:
                     System.out.println("Rodando RadixSort");
-                    Zero_A_DezMil.RadixSort.algoritmos();
+                    Zero_A_DezMil.RadixSort.quantidades();
                     System.out.println("Rodando RadixSort");
-                    Zero_A_DezMil.RadixSort.algoritmos();
+                    Zero_A_DezMil.RadixSort.quantidades();
                     System.out.println("Rodando RadixSort");
-                    Zero_A_DezMil.RadixSort.algoritmos();
+                    Zero_A_DezMil.RadixSort.quantidades();
 
                     break;
                 case 7:
                     System.out.println("Rodando SelectionSort");
-                    Zero_A_DezMil.SelectionSort.algoritmos();
+                    Zero_A_DezMil.SelectionSort.quantidades();
                     System.out.println("Rodando SelectionSort");
-                    Zero_A_DezMil.SelectionSort.algoritmos();
+                    Zero_A_DezMil.SelectionSort.quantidades();
 
                     break;
 
@@ -80,66 +72,54 @@ public class Main {
             switch (qualSort) {
                 case 1:
                     System.out.println("Rodando BubbleSort");
-                    Zero_A_MaxInt.BubbleSort.algoritmos();
-                    System.out.println("Rodando BubbleSort");
-                    Zero_A_MaxInt.BubbleSort.algoritmos();
-                    System.out.println("Rodando BubbleSort");
-                    Zero_A_MaxInt.BubbleSort.algoritmos();
+                    Zero_A_MaxInt.BubbleSort.quantidades();
+                    
 
                     break;
                 case 2:
                     System.out.println("Rodando CountingSort");
-                    Zero_A_MaxInt.CountingSort.algoritmos();
+                    Zero_A_MaxInt.CountingSort.quantidades();
                     System.out.println("Rodando CountingSort");
-                    Zero_A_MaxInt.CountingSort.algoritmos();
+                    Zero_A_MaxInt.CountingSort.quantidades();
                     System.out.println("Rodando CountingSort");
-                    Zero_A_MaxInt.CountingSort.algoritmos();
+                    Zero_A_MaxInt.CountingSort.quantidades();
 
                     break;
                 case 3:
                     System.out.println("Rodando Insertionsort");
-                    Zero_A_MaxInt.InsertionSort.algoritmos();
-                    System.out.println("Rodando Insertionsort");
-                    Zero_A_MaxInt.InsertionSort.algoritmos();
-                    System.out.println("Rodando Insertionsort");
-                    Zero_A_MaxInt.InsertionSort.algoritmos();
+                    Zero_A_MaxInt.InsertionSort.quantidades();
 
                     break;
                 case 4:
                     System.out.println("Rodando MergeSort");
-                    Zero_A_MaxInt.MergeSort.algoritmos();
+                    Zero_A_MaxInt.MergeSort.quantidades();
                     System.out.println("Rodando MergeSort");
-                    Zero_A_MaxInt.MergeSort.algoritmos();
+                    Zero_A_MaxInt.MergeSort.quantidades();
                     System.out.println("Rodando MergeSort");
-                    Zero_A_MaxInt.MergeSort.algoritmos();
+                    Zero_A_MaxInt.MergeSort.quantidades();
 
                     break;
                 case 5:
                     System.out.println("Rodando QuickSort");
-                    Zero_A_MaxInt.QuickSort.algoritmos();
+                    Zero_A_MaxInt.QuickSort.quantidades();
                     System.out.println("Rodando QuickSort");
-                    Zero_A_MaxInt.QuickSort.algoritmos();
+                    Zero_A_MaxInt.QuickSort.quantidades();
                     System.out.println("Rodando QuickSort");
-                    Zero_A_MaxInt.QuickSort.algoritmos();
+                    Zero_A_MaxInt.QuickSort.quantidades();
 
                     break;
                 case 6:
                     System.out.println("Rodando RadixSort");
-                    Zero_A_MaxInt.RadixSort.algoritmos();
+                    Zero_A_MaxInt.RadixSort.quantidades();
                     System.out.println("Rodando RadixSort");
-                    Zero_A_MaxInt.RadixSort.algoritmos();
+                    Zero_A_MaxInt.RadixSort.quantidades();
                     System.out.println("Rodando RadixSort");
-                    Zero_A_MaxInt.RadixSort.algoritmos();
+                    Zero_A_MaxInt.RadixSort.quantidades();
 
                     break;
                 case 7:
                     System.out.println("Rodando SelectionSort");
-                    Zero_A_MaxInt.SelectionSort.algoritmos();
-                    System.out.println("Rodando SelectionSort");
-                    Zero_A_MaxInt.SelectionSort.algoritmos();
-                    System.out.println("Rodando SelectionSort");
-                    Zero_A_MaxInt.SelectionSort.algoritmos();
-
+                    Zero_A_MaxInt.SelectionSort.quantidades();
                     break;
 
                 default:

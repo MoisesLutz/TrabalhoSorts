@@ -1,8 +1,7 @@
 package utils;
 
 import java.util.Arrays;
-import java.util.Random;
-import java.util.Scanner;
+
 
 public class Sorts {
 
@@ -24,7 +23,6 @@ public class Sorts {
         }
     }
 
-    // INSERTION SORT
     public static void insertionSort(int[] vetor) {
         for (int i = 1; i < vetor.length; i++) {
             int key = vetor[i];
@@ -37,7 +35,7 @@ public class Sorts {
         }
     }
 
-    // SELECTION SORT
+    
     public static void selectionSort(int[] vetor) {
         for (int i = 0; i < vetor.length - 1; i++) {
             int minIndex = i;
@@ -52,7 +50,6 @@ public class Sorts {
         }
     }
 
-    // MERGE SORT
     public static int[] mergeSort(int[] vetor) {
         int[] sorted = Arrays.copyOf(vetor, vetor.length);
         mergeSortRecursive(sorted, 0, sorted.length - 1);
@@ -113,7 +110,6 @@ public class Sorts {
         }
     }
 
-    // RADIX SORT
     public static void radixSort(int[] vetor) {
         int max = getMax(vetor);
         for (int exp = 1; max / exp > 0; exp *= 10) {

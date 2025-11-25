@@ -5,7 +5,7 @@ import utils.Sorts;
 
 public class InsertionSort {
 
-   public static void algoritmos(){
+   public static void quantidades(){
     cem();
     mil();
     dezMil();
